@@ -1,33 +1,68 @@
-.App {
-  text-align: center;
+.heading{
+    width: 100%;
+    text-align: center;
+    /* margin-top: 65px; */
+    font-weight: normal;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.buttonBar{
+  position: relative;
+}
+.button-custom{
+  width: 150px;
+  height: 60px;
+  background-color: cornflowerblue;
+  color: black;
+  border-color: black;
+  font-size: 13px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.send-data{
+  display: block;
+  position: relative;
+  margin-left: 47%;
+  margin-top: 5%;
+  background-color: gray;
+  padding: 1% auto;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.get-data{
+  display: block;
+  position: relative;
+  margin-left: 47%;
+  margin-top: 2%;
+  background-color: gray;
+  padding: 1% auto;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.file{
+  border: none;
+  width: 100px;
+  font-size: 12px;
+  margin-top: 1%;
+}
+.browse, .send {
+  width: 100px;
+  height: 30px;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+.active{
+  font-style: bold;
+  border: 1px dotted black;
+  text-align: left;
+  width: 10%;
+}
+.fileselect{
+  margin-left: 4%;
+}
+.step{
+  margin-top: 1%;
+}
+.send{
+  background-color: gold;
+}
+.chart-container{
+  width: 100%;
+  height: 500px;
 }
